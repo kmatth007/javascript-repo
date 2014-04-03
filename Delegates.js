@@ -11,3 +11,5 @@ function myMethod() {
 
 var delegate = createDelegate(myMethod, myObject);
 console.log(delegate());
+console.log("Hello World");
+
